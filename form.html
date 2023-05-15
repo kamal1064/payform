@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PAYMENT</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+	<H1 class="main_heading" >PAYMENT FORM</H1>
+	<HR>
+	<H3>USER INFORMATION</H3>
+    <form action="">
+		<LABEL for="name">NAME</LABEL>
+		<input type="text" placeholder="USERNAME" id="name" required>
+	<BR>
+	<BR>
+	<fieldset>
+		<legend>GENDER</legend>
+		<label for="male">MALE</label>
+		<input type="radio" NAME="GENDER"id="male" VALUE="male">
+		<label for="female">FEMALE</label>
+		<INPUT TYPE="RADIO" ID="female" NAME="GENDER" value="female">
+    </fieldset>
+	<BR>
+	<BR>
+	    <label for="address">ADDRESS</label>
+		<textarea name="address" id="address" placeholder="enter your address" cols="100"></textarea>
+	
+	<BR>
+	<BR>
+		<LABEL FOR="EMAIL">EMAIL:</LABEL>
+		<INPUT TPYE="EMAIL" placeholder="ENTER YOUR EMAIL" ID="EMAIL" required>
+	<BR>
+	<BR>
+			PINCODE:<input type="number" name="pincode" id="pincode">
+	<BR>
+	<HR>
+	    <H3>PAYMENT INFORMATION</H3>
+	
+		<LABEL FOR="CARD_TYPE">CARD TYPE:</LABEL>
+		<select NAME="CARD TYPE" ID="CARD_TYPE" required>
+			<option value="CARD">SELECT PAYMENT OPTION</option>
+			<option value="visa card">VISA CARD</option>
+			<option value="credit card">CREDIT CARD</option>
+			<option value="DEBIT CARD">DEBIT CARD</option>
+			<option VALUE="UPI">UPI</option>
+        </select>
+	<BR>
+	<BR>
+		    <LABEL FOR="CARD">CARD NUMBER</LABEL>
+            <input TYPE="number" placeholder="1111-2222-3333-4444"  ID="CARD" required>
+	<BR>
+	<BR>
+			<LABEL FOR="DATE">EXPIRATION DATE:</LABEL>
+			<INPUT TYPE="date" ID="DATE" required>
+    <BR>
+	<BR>
+			<LABEL FOR="CVV">CVV:</LABEL>
+			<INPUT TYPE="TEXT" placeholder="123" id="CVV" required>
+	<BR>
+	<BR>
+		<input type="submit" value="PAY NOW" />
+
+	</FORM>
+</div>
+</body>
+</html>
